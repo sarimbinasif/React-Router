@@ -1,6 +1,4 @@
-// import React, { Children } from 'react'
 import ReactDOM from 'react-dom/client'
-// import App from './App.jsx'
 import Layout from './Layout.jsx'
 import {RouterProvider, createBrowserRouter } from 'react-router-dom'
 import './index.css'
@@ -9,7 +7,6 @@ import About from './components/About/About.jsx'
 import Contact from './components/Contact/Contact.jsx'
 import User from './components/User/User.jsx'
 import React from 'react'
-// import Github from './components/Github/Github.jsx'
 import Github, { githubInfoLoader } from './components/Github/Github.jsx'
 
 const router = createBrowserRouter([
